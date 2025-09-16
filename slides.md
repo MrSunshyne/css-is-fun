@@ -70,11 +70,26 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 ---
-src: ./pages/imported-slides.md
+src: ./pages/intro/speaker-introduction.md
 hide: false
 ---
 
 ---
-src: ./pages/slidev-example-reference.md
+src: ./pages/intro/speaker-find-me.md
+hide: false
+---
+
+---
+src: ./pages/content/plan.md
+hide: false
+---
+
+---
+src: ./pages/reference/imported-slides.md
+hide: false
+---
+
+---
+src: ./pages/reference/slidev-example-reference.md
 hide: false
 ---
