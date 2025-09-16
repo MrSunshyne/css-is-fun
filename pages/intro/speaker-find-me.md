@@ -1,6 +1,6 @@
 ---
 layout: image-right
-image: ../../images/profile-transparent.png
+image: /images/profile-transparent.png
 ---
 
 # Find me on
