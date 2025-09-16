@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@baseline-banner/vue':
+        specifier: ^1.0.0
+        version: 1.0.0(vue@3.5.21(typescript@5.9.2))
       '@slidev/cli':
         specifier: ^52.1.0
         version: 52.1.0(@babel/parser@7.28.4)(@nuxt/kit@3.19.2)(@types/markdown-it@14.1.2)(@types/node@22.18.3)(@vue/compiler-sfc@3.5.21)(markdown-it-async@2.2.0)(playwright-chromium@1.55.0)(postcss@8.5.6)
@@ -162,6 +165,14 @@ packages:
   '@babel/types@7.28.4':
     resolution: {integrity: sha512-bkFqkLhh3pMBUQQkpVgWDWq/lqzc2678eUyDlTBhRqhCHFguYYGM0Efga7tYk4TogG/3x0EEl66/OQ+WGbWB/Q==}
     engines: {node: '>=6.9.0'}
+
+  '@baseline-banner/core@1.0.0':
+    resolution: {integrity: sha512-xwq/fGYCR+5ft+i+cvUkS3Q+roPsBqUiocgOVf+tzpjFs136/iVlfa3Bw3RUMBR0Bj5O25kR9BTWDdgjHTsOvg==}
+
+  '@baseline-banner/vue@1.0.0':
+    resolution: {integrity: sha512-4rB8/GvhPbpcCl7iCKJGApfgKzN7R73xDnc4rVNDS83I3PK0KPpKV0GtjaQycon7zXpQWX4YD/SdJkgp/82lNQ==}
+    peerDependencies:
+      vue: ^3.0.0
 
   '@braintree/sanitize-url@7.1.1':
     resolution: {integrity: sha512-i1L7noDNxtFyL5DmZafWy1wRVhGehQmzZaz1HiN5e7iylJMSZR7ekOV7NsIqa5qBldlLrsKv4HbgFUVlQrz8Mw==}
@@ -2899,6 +2910,13 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
+
+  '@baseline-banner/core@1.0.0': {}
+
+  '@baseline-banner/vue@1.0.0(vue@3.5.21(typescript@5.9.2))':
+    dependencies:
+      '@baseline-banner/core': 1.0.0
+      vue: 3.5.21(typescript@5.9.2)
 
   '@braintree/sanitize-url@7.1.1': {}
 
