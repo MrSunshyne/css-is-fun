@@ -556,7 +556,7 @@ Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML D
 ---
 foo: bar
 dragPos:
-  square: -29,0,0,0
+  square: NaN,NaN,NaN,NaN
 ---
 
 # Draggable Elements

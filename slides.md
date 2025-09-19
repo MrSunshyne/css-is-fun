@@ -28,28 +28,8 @@ seoMeta:
   # ogImage: https://cover.sli.dev
 ---
 
-# CSS is awesome
+# Hi
 
-An overview of the latest features of CSS you might not know about.
-
-A presentation by [Sandeep Ramgolam](https://github.com/MrSunshyne)
-
-<div class="flex justify-center text-xs">
-  <ul class="flex gap-4 list-style-none">
-    <li class="list-style-none">
-      <a href="https://github.com/MrSunshyne" target="_blank" class="slidev-icon-btn">
-        <carbon:logo-github />
-      </a>
-      <span>MrSunshyne</span>
-    </li>
-    <li class="list-style-none">
-      <a href="https://sandeep.ramgolam.com" target="_blank" class="slidev-icon-btn">
-        <carbon:logo-linkedin />
-      </a>
-      <span>Sandeep Ramgolam</span>
-    </li>
-  </ul>
-</div>
 
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
@@ -70,6 +50,11 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 ---
+src: ./pages/intro/topic.md
+hide: false
+---
+
+---
 src: ./pages/intro/speaker-introduction.md
 hide: false
 ---
@@ -81,6 +66,11 @@ hide: false
 
 ---
 src: ./pages/content/plan.md
+hide: true
+---
+
+---
+src: ./pages/intro/icebreaker.md
 hide: false
 ---
 
@@ -164,6 +154,7 @@ src: ./pages/content/sibling-functions.md
 hide: false
 ---
 
+
 ---
 src: ./pages/content/if.md
 hide: false
@@ -190,11 +181,6 @@ hide: false
 ---
 
 ---
-src: ./pages/reference/imported-slides.md
-hide: false
----
-
----
-src: ./pages/reference/slidev-example-reference.md
+src: ./pages/content/thank-you.md
 hide: false
 ---

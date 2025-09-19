@@ -90,12 +90,12 @@ Conditional Border Radius
 <div class="text-xs opacity-90 mt-1">Resize window - radius disappears near edges!</div>
 </div>
 
-<div class="demo-negate p-3 bg-yellow-100 border border-yellow-300 rounded text-center text-sm">
+<div class="text-black demo-negate p-3 bg-yellow-100 border border-yellow-300 rounded text-center text-sm">
 Negation Function
 <div class="text-xs mt-1">Using --negate() for negative margins</div>
 </div>
 
-<div class="mt-4 p-3 bg-gray-100 rounded text-xs">
+<div class="mt-4 p-3 bg-gray-100 rounded text-xs text-black">
 <strong>Benefits:</strong><br>
 • Reusable across projects<br>
 • Cleaner, readable code<br>
