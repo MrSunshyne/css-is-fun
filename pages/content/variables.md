@@ -1,6 +1,5 @@
 ---
 transition: view-transition
-level: 2
 ---
 
 # Custom Properties {.inline-block.view-transition-title}
@@ -20,7 +19,12 @@ custom-properties: --primary-color: #000;
 
 ---
 layout: two-cols
-layoutClass: gap-16
+
+# the web page source
+url: /examples/variable.html
+
+# a custom class name to the content
+class: my-cool-content-on-the-left
 ---
 
 ## Custom Properties {.inline-block.view-transition-title}
@@ -38,9 +42,3 @@ Also known as CSS Variables.
   background-color: var(--primary-color);
 }
 ```
-
-<template v-slot:right>
-  <div class="bg-red-500 w-full h-full">
-    
-  </div>
-</template>
