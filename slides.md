@@ -17,7 +17,7 @@ class: text-center
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
+transition: fade-out
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 # open graph
@@ -86,6 +86,16 @@ hide: false
 
 ---
 src: ./pages/content/if.md
+hide: false
+---
+
+---
+src: ./pages/content/grid.md
+hide: false
+---
+
+---
+src: ./pages/content/variables.md
 hide: false
 ---
 

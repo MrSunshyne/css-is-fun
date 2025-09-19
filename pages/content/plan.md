@@ -9,6 +9,7 @@
 - Nesting
 - @scope
 - View Transitions API
+- Nested View Transitions
 - Scroll Driven Animations
 - Popover API / Invoker API
 - Anchor Positioning
