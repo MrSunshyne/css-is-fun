@@ -85,17 +85,17 @@ hide: false
 ---
 
 ---
-src: ./pages/content/if.md
-hide: false
----
-
----
 src: ./pages/content/grid.md
 hide: false
 ---
 
 ---
 src: ./pages/content/variables.md
+hide: false
+---
+
+---
+src: ./pages/content/if.md
 hide: false
 ---
 
