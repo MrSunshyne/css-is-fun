@@ -29,14 +29,18 @@ Also known as CSS Variables.
 
 ###  Usage
 
-```css
+```css {*|2|6|*}
 :root {
   --primary-color: #000;
 }
-```
 
-```css
 .container {
   background-color: var(--primary-color);
 }
 ```
+
+<template v-slot:right>
+  <div class="bg-red-500 w-full h-full">
+    
+  </div>
+</template>
