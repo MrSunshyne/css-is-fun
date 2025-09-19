@@ -132,7 +132,7 @@ You can use the `Toc` component to generate a table of contents for your slides:
 
 The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
 
-::right::
+
 
 <Toc text-sm minDepth="1" maxDepth="2" />
 
@@ -556,7 +556,7 @@ Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML D
 ---
 foo: bar
 dragPos:
-  square: 555,116,167,_,-16
+  square: -29,0,0,0
 ---
 
 # Draggable Elements

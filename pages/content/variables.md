@@ -6,13 +6,13 @@ transition: view-transition
 
 The `custom-properties` property is a CSS property that allows you to define custom properties.
 
-### Syntax
+Syntax
 
 ```css
 custom-properties: --primary-color: #000;
 ```
 
-### Baseline
+Baseline
 
 <BaselineChecker feature-name="custom-properties" />
 
