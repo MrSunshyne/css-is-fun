@@ -19,6 +19,7 @@ Baseline
 
 ---
 layout: two-cols
+layoutClass: gap-16
 ---
 
 ## CSS Subgrid {.inline-block.view-transition-title}
@@ -43,10 +44,20 @@ Perfect alignment between nested grids and their parent.
 
 <template v-slot:right>
 <div class="grid grid-cols-3 gap-4 border-2 border-gray-800 p-4">
-<div class="bg-red-400 p-4 text-white font-bold text-center">1</div>
-<div class="grid gap-2 col-span-2" style="grid-template-columns: subgrid;">
-<div class="bg-teal-400 p-2 text-white font-bold text-center text-sm">2a</div>
-<div class="bg-blue-400 p-2 text-white font-bold text-center text-sm">2b</div>
+  <div class="bg-red-400 p-4 text-white font-bold text-center">1</div>
+  <div class="grid gap-2 col-span-2" style="grid-template-columns: subgrid;">
+    <div class="bg-teal-400 p-2 text-white font-bold text-center text-sm">2a</div>
+    <div class="bg-blue-400 p-2 text-white font-bold text-center text-sm">2b</div>
+  </div>
 </div>
+
+```html 
+<div class="grid grid-cols-3">
+  <div class="bg-red-400">1</div>
+  <div class="grid gap-2 col-span-2" style="grid-template-columns: subgrid;">
+    <div class="bg-teal-400">2a</div>
+    <div class="bg-blue-400">2b</div>
+  </div>
 </div>
+```
 </template>

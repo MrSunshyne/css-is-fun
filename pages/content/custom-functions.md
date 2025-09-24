@@ -20,7 +20,7 @@ Baseline
 
 <BaselineChecker feature-name="function" />
 
-✅ Available in Chrome 139+ • Game-changer for design systems!
+✅ Available in Chrome 139+ 
 
 ---
 layout: two-cols
@@ -58,14 +58,6 @@ Usage
 h1 { font-size: --fluid-type(24px, 36px); }
 p { font-size: --fluid-type(16px, 24px, 'copy'); }
 ```
-```css
-/* Conditional border radius - removes radius near viewport edges! */
-@function --conditional-radius(--radius, --edge: 4px) {
-  result: clamp(0px, ((100vw - var(--edge)) - 100%) * 1e5, var(--radius));
-}
-
-.card { border-radius: --conditional-radius(1rem); }
-```
 ````
 
 <template v-slot:right>
@@ -85,11 +77,6 @@ This text scales smoothly with our custom --fluid-type() function. Resize to see
 </p>
 </div>
 
-<div class="demo-conditional-border p-3 bg-gradient-to-r from-purple-400 to-pink-400 text-white text-center text-sm font-medium">
-Conditional Border Radius
-<div class="text-xs opacity-90 mt-1">Resize window - radius disappears near edges!</div>
-</div>
-
 <div class="text-black demo-negate p-3 bg-yellow-100 border border-yellow-300 rounded text-center text-sm">
 Negation Function
 <div class="text-xs mt-1">Using --negate() for negative margins</div>
@@ -104,10 +91,6 @@ Negation Function
 </div>
 </div>
 
-<div class="mt-6 p-3 bg-green-100 rounded text-center">
-<p class="text-xs text-green-600 font-medium">🎉 Working in Chrome 140!</p>
-<p class="text-xs text-gray-600 mt-1">You should see real CSS functions in action</p>
-</div>
 </div>
 </template>
 

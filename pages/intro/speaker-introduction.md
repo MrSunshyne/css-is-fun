@@ -1,6 +1,6 @@
 ---
 layout: image-right
-image: /images/profile-transparent.png
+image: images/sandeep.png
 ---
 
 # About me

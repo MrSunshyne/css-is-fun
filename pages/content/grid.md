@@ -14,3 +14,11 @@ Syntax & Usage
 Baseline
 
 <BaselineChecker feature-name="grid" />
+
+
+---
+layout: cover
+---
+
+
+<img src="/images/old.png" class="w-full h-100 object-contain">

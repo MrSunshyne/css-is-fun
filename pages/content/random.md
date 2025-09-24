@@ -22,6 +22,7 @@ Not even in Baseline yet
 
 ---
 layout: two-cols
+layoutClass: gap-16
 ---
 
 ## CSS random() Function {.inline-block.view-transition-title}
