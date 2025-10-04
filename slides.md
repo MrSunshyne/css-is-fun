@@ -60,6 +60,11 @@ hide: false
 ---
 
 ---
+src: ./pages/intro/speaker-introduction-cedric.md
+hide: false
+---
+
+---
 src: ./pages/intro/speaker-find-me.md
 hide: false
 ---

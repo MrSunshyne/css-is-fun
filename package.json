@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@baseline-banner/vue": "^1.0.0",
+    "@iconify-json/logos": "^1.2.9",
     "@slidev/cli": "^52.1.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
